@@ -60,7 +60,7 @@
 		"scope": "javascript,typescript, php, html",
 		"prefix": "esc_html_e",
 		"body": [
-			"<?php esc_html_e('$1', '${2:Textdomain}') ?>",
+			"<?php esc_html_e(`$1`, '${2:Textdomain}') ?>",
 		],
 		"description": "output on php file"
 	},
