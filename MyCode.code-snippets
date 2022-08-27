@@ -15,6 +15,16 @@
 		"description": "output on php file"
 	},
 
+	// Echo snippet
+	"Print to echo": {
+		"scope": "javascript,typescript, php, html",
+		"prefix": "echo",
+		"body": [
+			"<?php echo $1 ?>",
+		],
+		"description": "output on php file"
+	},
+
 	// Print_r Snippets
 	"Print to php pre": {
 		"scope": "javascript,typescript, php, html",
@@ -60,7 +70,7 @@
 		"scope": "javascript,typescript, php, html",
 		"prefix": "esc_html_e",
 		"body": [
-			"<?php esc_html_e(`$1`, '${2:Textdomain}') ?>",
+			"<?php esc_html_e('$1', '${2:Textdomain}') ?>",
 		],
 		"description": "output on php file"
 	},
