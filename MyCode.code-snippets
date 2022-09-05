@@ -106,7 +106,7 @@
 		"prefix": "acf_option",
 		"body": [
 			"<?php ",
-			"${1:Option_ID} = get_field('$2');",
+			"${1:Option_ID} = get_field('$2', 'option');",
 			"?>",
 		],
 		"description": "output on php file as template part"
