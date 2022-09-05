@@ -112,6 +112,18 @@
 		],
 		"description": "output on php file as template part"
 	},
+
+	// Acf Option Part Snippets
+	"Print to Acf_Option": {
+		"scope": "javascript,typescript, php, html",
+		"prefix": "acf_option",
+		"body": [
+			"<?php ",
+			"${1:Option_ID} = get_field('$2')",
+			"?>",
+		],
+		"description": "output on php file as template part"
+	},
 	
 }
 
