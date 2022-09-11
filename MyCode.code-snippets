@@ -111,4 +111,17 @@
 		],
 		"description": "output on php file as template part"
 	},
+
+	// Function Snippets
+	"Print to Function": {
+		"scope": "javascript,typescript, php, html",
+		"prefix": "fnc",
+		"body": [
+			"function ${1:callback_function}(){",
+			"$0",
+			"}",
+			"add_action('${2:Hook}', '${1:callback_function}' );",
+		],
+		"description": "output on php file as template part"
+	},
 }
